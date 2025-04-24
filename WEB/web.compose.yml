@@ -26,11 +26,6 @@ services:
     build:
       context: ./Blakeroft_2
       dockerfile: Dockerfile
-  
-  blakeroft3:
-    build:
-      context: ./Blakeroft_3
-      dockerfile: Dockerfile
 
   sqhell:
     build:
