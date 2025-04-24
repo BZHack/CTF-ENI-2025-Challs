@@ -1,0 +1,26 @@
+name: "l'infiltration des Ombres"
+author: Xeg
+category: Reseau
+description: |
+    author: Xeg
+
+    Des rumeurs sinistres entourent l'ancienne station de travail d'un certain Edgar Ravenscroft, un administrateur système ayant disparu dans des circonstances mystérieuses.
+    Selon les légendes, son poste de travail serait un lieu de terreur où des événements inexplicables ont eu lieu.
+    Avant sa disparition, Edgar a accédé à un partage SMB sur un serveur oublié, laissant derrière lui une trace de son passage.
+    Ce partage renferme des secrets dont certains devraient rester cachés à jamais.
+
+    Retrouvez son mot de passe pour accéder au partage.
+
+    exemple : ENI{MDP}
+type: standard
+value: 10
+flags:
+  - ENI{letmein}
+requirements:
+  - "Welcome"
+files:
+  - ./src/public/partage.pcapng
+tags:
+  - facile
+state: visible
+version: 0.1

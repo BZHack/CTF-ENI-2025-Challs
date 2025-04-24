@@ -1,0 +1,26 @@
+name: "L'Archive des Damnés"
+author: Alexidre
+category: Reverse
+description: |
+    author: Alexidre
+
+    Une mystérieuse archive maudite repose dans les profondeurs d'un binaire énigmatique. Un message vous met au défi :
+    "Ne lis pas ce message... fouille dans ce qui ne doit pas être vu."
+
+    exemple : ENI{FLAG_FORMAT}
+type: standard
+value: 10
+flags:
+  - ENI{L_Ame_Du_Fichier}
+files:
+  - ./src/public/L_Archive_des_Damnes
+requirements:
+  - "Welcome"
+# hints:
+#   - "Un binaire peut contenir plus que du code"
+#   - "Il y a un fichier ZIP dans le binaire"
+#   - "Le logiciel Detect It Easy peut être utiliser pour l'extraire"
+tags:
+  - facile
+state: visible
+version: 1.0

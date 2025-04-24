@@ -1,0 +1,23 @@
+name: "L'urbex de Simon"
+author: Rik
+category: OSINT
+description: |
+    author: Rik
+
+    Simon a évoqué un urbex passé avec Damien dans un bâtiment abandonné. 
+    Pour quelle invention l'ingénieur ayant conçu ce bâtiment est-il le plus célèbre ?  
+    
+    exemple : ENI{BRIQUE_REFRACTAIRE}
+type: standard
+value: 30
+flags:
+  - ENI{BETON_PRECONTRAINT}
+# hints:
+#   - "Il y a un élément du paysage bien visible qui permet de limiter les lieux possibles."
+requirements:
+  - "Welcome"
+  - "Trouvez Damien"
+tags:
+  - moyen
+state: visible
+version: 0.1

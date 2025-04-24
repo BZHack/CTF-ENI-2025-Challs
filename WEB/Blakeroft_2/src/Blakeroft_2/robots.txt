@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /Carla/
+Disallow: /personnal_data
+Disallow: /admin/
+Disallow: /.ssh
+Disallow: /secret.txt
+Disallow: /.DS_Store
+Disallow: /config/
+Disallow: /.hidden
+Disallow: /flag.txt
+
+Allow: /public/
+Allow: /private_data.txt

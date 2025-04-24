@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET OUT !</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div class="fog"></div>
+    <div class="container" id="main-container">
+        <h1>GET OUT !</h1>
+        <p>Le temps presse, serez-vous suffisament rapide pour trouver une solution à ce dilemme ?</p>
+        <button class="start-button" onclick="startChallenge()">Je suis prêt !</button>
+
+        <div class="captcha-container" id="captcha-container">
+            <div class="captcha-image" id="captcha-image-container"></div>
+            <input type="text" class="captcha-input" id="captcha-input" placeholder="Saisir le CAPTCHA">
+            <button class="submit-button" onclick="validateCaptcha()">Envoyer</button>
+            <p id="timer" style="margin-top: 10px; font-size: 1.2rem;"></p>
+        </div>
+    </div>
+
+    <div class="result-container" id="result-container">
+        <h1 id="result-text"></h1>
+    </div>
+
+    <script src="assets/scripts.js"></script>
+</body>
+</html>
+

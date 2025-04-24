@@ -1,0 +1,22 @@
+name: "La journée de pêche"
+author: Rik
+category: OSINT
+description: |
+    author: Rik
+
+    Simon a profité de l'ouverture de la pêche à la truite pour aller pêcher. Dans quelle ville sont-ils allé pêcher ? 
+  
+    exemple : ENI{LA_JONCHERE-SAINT-MAURICE}
+type: standard
+value: 10
+flags:
+  - ENI{LA_BOISSIERE-DE-MONTAIGU}
+# hints:
+#   - "Regardez bien ses réseaux sociaux."
+requirements:
+  - "L'urbex de Simon"
+  - "Welcome"
+tags:
+  - facile
+state: visible
+version: 0.1

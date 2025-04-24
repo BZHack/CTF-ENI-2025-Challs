@@ -1,0 +1,23 @@
+name: "La fin"
+author: Rik
+category: OSINT
+description: |
+    author: Rik
+
+    Avec qui Damien a t'il fait l'exploration (identité complète) ?
+
+    exemple : ENI{JEAN_MARTIN_DUPONT}
+type: standard
+value: 50
+flags:
+  - ENI{ENZO_MANCINI_LEMOINE}
+# hints:
+#   - "Vous êtes-vous intéressé à ses relations ?"
+#   - "Une VM sous Linux pourra être utile"
+requirements:
+  - "Welcome"
+  - "L'urbex de Damien"
+tags:
+  - difficile
+state: visible
+version: 0.1

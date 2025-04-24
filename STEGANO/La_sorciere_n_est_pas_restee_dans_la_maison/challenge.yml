@@ -1,0 +1,26 @@
+name: "La sorcière n'est pas restée dans la maison"
+author: Piuw79
+category: Stegano
+description: |
+    author: Piuw79
+
+    Plus personne n'est en sécurité !
+    La malédiction de la sorcière s'est extirpée de la maison.
+    Afin d'étendre son influence et satisfaire sa soif de massacre, elle hante ce trailer.
+
+    Trouvez la avant qu'elle ne vous trouve !
+
+    https://drive.google.com/file/d/1H_2kl-zQB_nM-FqNgGZQPAnTzNrfzTIO/view?usp=drive_link
+
+    exemple : ENI{FLAG_FORMAT}
+type: standard
+value: 10
+flags:
+  - ENI{We$h_Gr0s_T'es_M@udit}
+### Fichier a ajouter manuellement
+# files:
+#   - ./src/public/sorciere.mov
+tags:
+  - Facile
+state: visible
+version: 1.0

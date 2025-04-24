@@ -1,0 +1,22 @@
+name: "Welcome"
+author: CTF Maker
+category: Welcome
+description: |
+    author: CTF Maker
+
+    Bienvenue au CTF "Nuit de Terreur" ! 
+    
+    Plongez dans un univers terrifiant où vos compétences en cybersécurité seront mises à l'épreuve. 
+    Préparez-vous à affronter des énigmes glaçantes et des défis macabres. 
+    
+    Attention : un flag se cache dans les règles, alors lisez-les attentivement… si vous osez ! Bonne chance, et que la peur ne vous paralyse pas !
+
+
+type: standard
+value: 1
+flags:
+  - ENI{p€rs0nNe}
+tags:
+  - Welcome
+state: visible
+version: 1.0

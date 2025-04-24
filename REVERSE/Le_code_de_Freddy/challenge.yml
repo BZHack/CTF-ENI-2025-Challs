@@ -1,0 +1,26 @@
+name: "Le code de Freddy"
+author: Alexidre
+category: Reverse
+description: |
+  author: Alexidre
+
+  Tu es coincé dans le cauchemar. Freddy a verrouillé la seule issue avec un code insensé.
+  Il n'y a aucun indice, aucune logique… Seulement une réponse, cachée dans l'ombre. 
+  Tu pourrais errer éternellement dans ce labyrinthe, ou bien utiliser un esprit méthodique pour tracer le seul chemin possible vers la sortie.
+  
+  exemple : ENI{FLAG_FORMAT}
+
+type: standard
+value: 50
+flags:
+  - ENI{TGLOFU}
+requirements:
+  - "Welcome"
+files:
+  - ./src/public/le_code_de_freddy
+# hints:
+#   - "Il va falloir bruteforcer la solution"
+tags:
+  - difficile
+state: visible
+version: 0.1

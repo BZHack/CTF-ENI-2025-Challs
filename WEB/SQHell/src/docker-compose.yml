@@ -1,0 +1,27 @@
+version: '3.3'
+
+services:
+ php:
+  build:
+   context: .
+   dockerfile: Dockerfile
+  container_name: apache
+  depends_on:
+   - db
+  volumes:
+   - ./www:/var/www/html/
+  ports:
+   - 80:80
+ db:
+  container_name: mysql
+  image: mysql:8.0
+  command: --default-authentication-plugin=mysql_native_password
+  environment:
+   MYSQL_ROOT_PASSWORD: ?767lWv9Bx
+   MYSQL_DATABASE: injection_sql_basic
+   MYSQL_USER: user_ctf_eni
+   MYSQL_PASSWORD: s5719?Bp;k
+  volumes:
+    - ./sql:/docker-entrypoint-initdb.d
+  ports:
+   - 3306:3306

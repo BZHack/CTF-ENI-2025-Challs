@@ -1,0 +1,21 @@
+name: "Charlotte"
+author: Elymaro
+category: Stéganographie
+description: |
+    author: Elymaro
+
+    Charlotte, une fille au passé trouble, semble avoir disparu. La seule chose qu'elle ait laissée derrière elle est ce fichier. Peut-être contient-il des informations intéressantes !
+    
+    exemple : ENI{FLAG_FORMAT}
+type: standard
+value: 10
+flags:
+  - ENI{finDing_Charlott3_myst3ry}
+files:
+  - src/Charlotte.jpg
+requirements:
+  - "Welcome"
+tags:
+  - Facile
+state: visible
+version: 0.1

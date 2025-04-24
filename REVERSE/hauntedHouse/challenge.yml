@@ -1,0 +1,30 @@
+name: "Haunted House"
+author: Destra
+category: Reverse
+description: |
+    author: Destra
+
+    Un fantôme hante cette maison abandonnée...
+    
+    Pourriez-vous l'invoquer et découvrir son secret ?
+
+    exemple : ENI{FLAG_FORMAT}
+
+value: 30
+type: standard
+flags:
+  - ENI{LeF4NtÔMeSeReVeLe}
+requirements:
+  - "Welcome"
+files:
+  - ./src/public/hauntedHouse
+# hints:
+#   - "Inspectez le binaire à la recherche d'indices"
+#   - "Utilisez un commande linux pour inspecter les chaines de caractères du binaire"
+#   - "Cherchez une ligne contenant `Invocation =`, elle pourrait être importante."
+#   - "Essayez d'entrer la phrase trouvée pour voir ce qui se passe."
+#   - "Le drapeau est chiffré avec un XOR simple, analysez la logique pour le récupérer."
+tags:
+  - Moyen
+state: visible
+version: 0.1

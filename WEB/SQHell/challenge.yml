@@ -1,0 +1,24 @@
+name: "SQHell"
+author: Yoshi
+category: Web
+description: |
+    author: Yoshi
+
+    Un site web abandonné cache un portail maudit, gardé par une âme damnée. Seuls ceux qui sauront manipuler les ombres du code pourront briser la malédiction et révéler le secret de cette mystérieuse page de login.
+
+    Oseras-tu forcer les portes de l'enfer ?
+
+    http://sqhell.enigme-ctf.fr:8000
+
+    exemple : ENI{FLAG_FORMAT}
+type: standard
+value: 10
+flags:
+  - ENI{SQL_1nj€ct10n_b@s1c}
+requirements:
+  - "Welcome"
+tags:
+  - facile
+connection_info: http://sqhell.enigme-ctf.fr:8000
+state: visible
+version: 1.0

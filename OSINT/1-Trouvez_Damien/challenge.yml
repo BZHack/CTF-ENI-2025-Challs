@@ -1,0 +1,23 @@
+name: "Trouvez Damien"
+author: Rik
+category: OSINT
+description: |
+    author: Rik
+
+    Damien Birdwood a trouvé un film d'horreur en faisant le tri dans le grenier de son grand-père. Depuis, des choses étranges se sont déroulées, avant sa disparition. Sur quel réseau social Damien était-il actif ?
+  
+    exemple : ENI{FLAG_FORMAT}
+    > Note : Ce challenge est le début d'une série de challenges utilisant des comptes fictifs sur des réseaux sociaux. L'OSINT étant une pratique passive, aucune intéraction avec les comptes ne doit être effectuée. Pour le réalisme, ces comptes fictifs ont des liaisons avec des profils de personnes réelles. La recherche d'investigation ne doit pas s'effectuer sur ces profils réels. Aucun compte n'est nécessaire pour réaliser ces challenges.
+value: 10
+flags:
+  - ENI{BLUESKY}
+files:
+  - ./src/public/Damien_Birdwood.jpg
+# hints:
+#   - "Il s'agit d'un réseau social open source apparu il y a seulement quelques années."
+tags:
+  - facile
+requirements:
+  - "Welcome"
+state: visible
+version: 1.0

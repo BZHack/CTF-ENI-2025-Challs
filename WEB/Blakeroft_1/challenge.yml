@@ -1,0 +1,26 @@
+name: "Blakeroft (1/3)"
+author: Elymaro
+category: Web
+description: |
+    author: Elymaro
+
+    La petite ville de Blakeroft est chargée d'histoire. On y raconte que des choses terribles s'y sont produites il y a plusieurs dizaines d'années. Un père aurait invoqué une entité dans l'objectif d'améliorer l'état de santé de sa fille. L'expérience aurait touné au drame. En tant qu'enquêteur chevronné sur ces sujets, vous êtes de vous y rendre et d'en savoir davantage.
+    
+    Dans cette première phase, vous serez chargé de découvrir le grimoire utilisé pour invoqué l'entité.
+    
+    PS: Aucun FUZZ / Brute-force n'est nécessaire.
+
+    http://blakeroft1.enigme-ctf.fr:8000
+
+    exemple : ENI{FLAG_FORMAT}
+type: standard
+value: 10
+requirements:
+  - "Welcome"
+flags:
+  - ENI{RiTu3l-IncAnt@tion-Umbr4}
+tags:
+  - Facile
+connection_info: http://blakeroft1.enigme-ctf.fr:8000
+state: visible
+version: 1.0

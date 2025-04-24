@@ -1,0 +1,23 @@
+name: "Sarah"
+author: Elymaro
+category: OSINT
+description: |
+    author: Elymaro
+
+    Le 6 Juin 2018 à 11h30, Sarah se rend au Great Grog achète une bouteille de vin, puis appelle un Taxi. Quelques minutes plus tard, le Taxi n°781 la récupère dans une rue attenante. Elle se rend à l’adresse indiqué sur ce dernier pour déjeuner. Ce jour-là, après avoir réglé le taxi elle ne possède plus que 2 £ de monnaie en poche.
+    
+    Quel était le dernier repas de Sarah avant de mourir ?
+    
+    exemple : ENI{FLAG_FORMAT}
+files:
+    - ./src/Sarah.png
+type: standard
+value: 10
+requirements:
+  - "Welcome"
+flags:
+  - ENI{VEGETABLE_SOUP}
+tags:
+  - Facile
+state: visible
+version: 1.0

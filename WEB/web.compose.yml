@@ -1,0 +1,52 @@
+services:
+  reverse-proxy:
+    image: nginx:latest
+    container_name: nginx-proxy
+    ports:
+      - "8000:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+
+  getout:
+    build:
+      context: ./get-out
+      dockerfile: Dockerfile
+
+  pactedesombres:
+    build:
+      context: ./Pacte_des_ombres
+      dockerfile: Dockerfile
+
+  blakeroft1:
+    build: 
+      context: ./Blakeroft_1
+      dockerfile: Dockerfile
+  
+  blakeroft2:
+    build:
+      context: ./Blakeroft_2
+      dockerfile: Dockerfile
+  
+  blakeroft3:
+    build:
+      context: ./Blakeroft_3
+      dockerfile: Dockerfile
+
+  sqhell:
+    build:
+      context: ./SQHell/src
+      dockerfile: Dockerfile
+
+  db:
+    container_name: mysql
+    build:
+      context: ./SQHell/src
+      dockerfile: Dockerfile.db
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: "?767lWv9Bx"
+      MYSQL_DATABASE: injection_sql_basic
+      MYSQL_USER: user_ctf_eni
+      MYSQL_PASSWORD: s5719?Bp;k
+    expose:
+     - "3306"

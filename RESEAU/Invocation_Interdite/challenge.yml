@@ -1,0 +1,25 @@
+name: "L'Invocation Interdite"
+author: Xeg
+category: Reseau
+description: |
+    author: Xeg
+
+    Dans les profondeurs de Black Hollow, un ancien grimoire a été découvert.
+    Selon la légende, un sorcier déchu, a laissé derrière lui une incantation cryptée, protégée par un sort mystique.
+
+    Mais une faille a été détectée... Il semblerait que le sorcier ait oublié de renforcer sa protection. 
+    Son invocation est vulnérable, exposant une précieuse clé à qui saura la récupérer.
+
+    exemple : ENI{Prénom_Nom_MDP}
+type: standard
+value: 30
+requirements:
+  - "Welcome"
+flags:
+  - ENI{Lazarus_Wendigo_trustno1}
+files:
+  - ./src/public/Kerberos.pcapng
+tags:
+  - moyen
+state: visible
+version: 0.1

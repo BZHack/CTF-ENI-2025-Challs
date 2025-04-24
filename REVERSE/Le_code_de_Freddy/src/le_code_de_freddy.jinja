@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define USERDEF "{{ userdef }}"
+#define LEN_USERDEF {{ len_userdef }}
+
+char msg[] =
+  "{{ description }}";
+
+void print_msg() {
+  printf("%s", msg);
+}
+
+int complex_function(int value, int i) {
+#define LAMBDA 3
+  if (!('A' <= value && value <= 'Z')) {
+    exit(1);
+  }
+  return ((value - 'A' + (LAMBDA * i)) % ('Z' - 'A' + 1)) + 'A';
+}
+
+int main(int argc, char* argv[]) {
+  char buffer[7];
+
+  //print_msg();
+
+  printf("Enter the password: ");
+  scanf("%6s", buffer);
+
+  char reponse_utilisateur[7];
+  strcpy(reponse_utilisateur, buffer);
+
+  for (int i=0; i<LEN_USERDEF; ++i) {
+    buffer[i] = complex_function(buffer[i], i);
+  }
+
+  if (strcmp(buffer, USERDEF)) {
+    printf("Tu es toujours piégé dans ton cauchemar...\n");
+  } else {
+    printf("Tu as gagné... mais Freddy reviendra toujours. Le flag est ENI{{ '{' }}%s{{ '}' }}\n",reponse_utilisateur);
+  }
+}

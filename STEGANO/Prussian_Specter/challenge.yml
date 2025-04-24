@@ -1,0 +1,22 @@
+name: "Prussian specter"
+author: Destra
+category: Stéganographie
+description: |
+    author: Destra
+
+    Arriverez-vous à percer ce code mystique ? 
+    Le spectre du Prussien vous permettra-t-il de découvrir ce message ?
+  
+type: standard
+value: 50
+flags:
+  - ENI{CODEVIGENEREETCODEPIET}
+
+files:
+  - ./src/public/code.png
+requirements:
+  - "Welcome"
+tags:
+  - Difficile
+state: visible
+version: 0.1

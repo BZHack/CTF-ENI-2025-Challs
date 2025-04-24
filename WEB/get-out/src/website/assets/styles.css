@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-container {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px crimson;
+}
+
+.result-container h1 {
+    font-size: 2rem;
+    color: crimson;
+    text-shadow: 0 0 10px crimson;
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: crimson;
+    text-shadow: 0 0 20px crimson;
+    animation: flicker 3s infinite;
+}
+
+@keyframes flicker {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        opacity: 1;
+    }
+    20%, 24%, 55% {
+        opacity: 0.4;
+    }
+}
+
+p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    opacity: 0;
+    animation: fadeIn 4s forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fog {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    animation: moveFog 30s linear infinite;
+}
+
+@keyframes moveFog {
+    0% {
+        transform: translateX(-100px);
+    }
+    100% {
+        transform: translateX(100px);
+    }
+}
+
+.start-button {
+    padding: 10px 20px;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: #000;
+    background: crimson;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px crimson;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        box-shadow: 0 0 10px crimson;
+    }
+    50% {
+        box-shadow: 0 0 20px crimson;
+    }
+}
+
+.start-button:hover {
+    background: #fff;
+    color: crimson;
+}
+
+.captcha-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.captcha-image {
+    margin-bottom: 10px;
+}
+
+.captcha-input {
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #000;
+    background: crimson;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px crimson;
+}
+
+.submit-button:hover {
+    background: #fff;
+    color: crimson;
+}

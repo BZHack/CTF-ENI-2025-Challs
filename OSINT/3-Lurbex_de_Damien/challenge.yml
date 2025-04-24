@@ -1,0 +1,27 @@
+name: "L'urbex de Damien"
+author: Rik
+category: OSINT
+description: |
+    author: Rik
+
+    Damien est parti en urbex avec un autre urbexer. Une fois sur place, il a envoyé un message à Simon pour qu'il les rejoigne : "Simon, j'explore un lieu super. Rejoins-nous. Lola te mènera à François, tu trouveras le lieu à environ 6 km de là." 
+    En quelle année François a t'il cessé son activité ? \
+    Qui a racheté le lieu exploré par Damien en 1864 ? 
+  
+    exemple : ENI{1990_NICOLAS_DUBOIS}
+type: standard
+value: 10
+flags:
+  - ENI{2012_PAUL_RENAUD}
+files:
+  - ./src/public/14962036776.jpg
+# hints:
+#   - "Avez-vous localisé dans quelle commune a été prise cette photo ?"
+#   - "Qui sont Lola et François ? Ces informations sont assez faciles à trouver."
+requirements:
+  - "Welcome"
+  - "L'urbex de Simon"
+tags:
+  - facile
+state: visible
+version: 0.1

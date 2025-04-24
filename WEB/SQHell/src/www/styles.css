@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #121212;
+    color: #e63946;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container, .dashboard-container {
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(230, 57, 70, 0.5);
+    width: 350px;
+    text-align: center;
+    border: 2px solid #e63946;
+}
+
+h2 {
+    color: #e63946;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 93%;
+    padding: 10px;
+    background: black;
+    border: 1px solid #e63946;
+    color: #e63946;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #e63946;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #c71d28;
+}
+
+.error {
+    color: #e63946;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px; 
+    display: block;
+}
+
+.dashboard-container p {
+    color: white;
+    font-size: 18px;
+}
+
+.logout-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #e63946;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.logout-btn:hover {
+    background: #c71d28;
+}

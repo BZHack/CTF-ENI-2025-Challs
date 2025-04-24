@@ -1,0 +1,25 @@
+name: "Le contrat"
+author: Piuw79
+category: Stéganographie
+description: |
+    author: Piuw79
+
+    Vous avez trouvé la page Nécronomicon mentionnant le contrat de Freddy Krueger.
+    Vous sentez son énergie sortir de cette page, tenter de trouver ce qui s'y cache !
+    
+    exemple : ENI{FLAG_FORMAT}
+
+type: standard
+value: 30
+flags:
+  - ENI{Fais_tu_de_beaux_rêves_?}
+files:
+  - ./src/public/necronomicon.jpg
+requirements:
+  - "Welcome"
+# hints:
+#   - "Une image peut en cacher une autre"
+tags:
+  - Moyen
+state: visible
+version: 0.1

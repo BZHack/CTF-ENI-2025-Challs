@@ -1,0 +1,24 @@
+name: "Le pacte des ombres"
+author: Elymaro
+category: Web
+description: |
+    author: Elymaro
+
+    Les Anciens exigent une offrande visuelle : seule une image marquée du sceau occulte ouvrira la porte interdite. Choisis-la avec sagesse… ou reste à jamais dans l’ombre.
+    
+    PS: Aucun FUZZ / Brute-force n'est nécessaire.
+
+    http://pactedesombres.enigme-ctf.fr:8000
+
+    exemple : ENI{FLAG_FORMAT}
+type: standard
+value: 50
+flags:
+  - ENI{Maud1t_UpL0aD_2_fIcHi3r}
+requirements:
+  - "Welcome"
+tags:
+  - Difficile
+connection_info: http://pactedesombres.enigme-ctf.fr:8000
+state: visible
+version: 1.0

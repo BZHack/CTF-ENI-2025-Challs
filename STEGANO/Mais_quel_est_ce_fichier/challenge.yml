@@ -1,0 +1,24 @@
+name: "Mais quel est ce fichier ?"
+author: Rik
+category: Stéganographie
+description: |
+    author: Rik
+
+    Trouvez les mots du flag !
+
+    exemple : ENI{MOT1_MOT2_MOT3}
+
+type: standard
+value: 30
+flags:
+  - ENI{CARNAVAL_DE_VENISE}
+files:
+  - ./src/public/data.zip
+requirements:
+  - "Welcome"
+# hints:
+#   - "Avez-vous recherché le format du fichier ?"
+tags:
+  - moyen
+state: visible
+version: 0.1

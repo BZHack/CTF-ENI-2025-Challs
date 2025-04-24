@@ -1,0 +1,24 @@
+name: "Get Out !"
+author: Elymaro
+category: Web
+description: |
+    author: Elymaro
+
+    Vous êtes pris dans un état hypnotique, et pour vous échapper, vous devrez faire preuve d'un dernier effort de lucidité et de rapidité. Votre esprit sera mis à l'épreuve, et si vous échouez, l'hypnose reprendra le contrôle. C'est votre seule chance de ne pas sombrer.
+    
+    PS: Aucun FUZZ / Brute-force n'est nécessaire.
+
+    http://getout.enigme-ctf.fr:8000
+    
+    exemple : ENI{FLAG_FORMAT}
+type: standard
+value: 30
+flags:
+  - ENI{Y0u_SuCce$$fu1ly_eSc4p4d_Br0!}
+requirements:
+  - "Welcome"
+tags:
+  - Moyen
+connection_info: http://getout.enigme-ctf.fr:8000
+state: visible
+version: 1.1

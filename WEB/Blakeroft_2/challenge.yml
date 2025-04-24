@@ -1,0 +1,25 @@
+name: "Blakeroft (2/3)"
+author: Elymaro
+category: Web
+description: |
+    author: Elymaro
+
+    Maintenant que l'on a une piste sur l'entité invoquée, il est necessaire de s'informer sur cette dernière.
+   
+    PS: Aucun FUZZ / Brute-force n'est nécessaire.
+
+    http://blakeroft2.enigme-ctf.fr:8000
+
+    exemple : ENI{FLAG_FORMAT}
+type: standard
+value: 30
+flags:
+  - ENI{UmBr4_l4_SalvATr1c3}
+requirements:
+  - "Welcome"
+  - "Blakeroft (1/3)"
+tags:
+  - Moyen
+connection_info: http://blakeroft2.enigme-ctf.fr:8000
+state: visible
+version: 1.0

@@ -1,0 +1,24 @@
+name: "La Condition de Michael Myers"
+author: Alexidre
+category: Reverse
+description: |
+    author: Alexidre
+
+    "Michael Myers est inarrêtable… Toujours là, encore et encore. Peut-être qu'un simple détail pourrait enfin le faire disparaître ?"
+
+    exemple : ENI{Fl4g_3x3mpl3}
+type: standard
+value: 10
+flags:
+  - ENI{la_fin_du_cauchemar}
+files:
+  - ./src/public/main
+requirements:
+  - "Welcome"
+# hints:
+#   - "Avez-vous trouvé la fonction responsable de l'affichage du flag ?"
+#   - "Il faudrait trouver un moyen de modifier la condition du 'if'"
+tags:
+  - facile
+state: visible
+version: 0.1

@@ -1,0 +1,22 @@
+name: "Disparition de Damien"
+author: Rik
+category: OSINT
+description: |
+    author: Rik
+
+    Lors de l'exploration, il est arrivé quelque chose à Damien. Que lui est-il arrivé (un nom est attendu) ?
+
+    exemple : ENI{COUP}
+type: standard
+value: 30
+flags:
+  - ENI{CHUTE}
+# hints:
+#   - "Un message doit vous guider dans la bonne direction."
+requirements:
+  - "L'urbex de Damien"
+  - "Welcome"
+tags:
+  - moyen
+state: visible
+version: 0.1

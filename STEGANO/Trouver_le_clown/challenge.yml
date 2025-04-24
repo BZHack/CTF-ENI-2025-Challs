@@ -1,0 +1,27 @@
+name: "Trouver le clown"
+author: Piuw79
+category: Stegano
+description: |
+    author: Piuw79
+
+    Bonjour enfants de la ville de Derry,
+
+    Le clown Pennywise de Ça tente une nouvelle approche pour vous hanter et vous kidnapper.
+    Nous avons retrouver ce trailer, il a une aura maléfique, peut-être qu'il pourrait vous aider à le débusquer.
+
+    https://drive.google.com/file/d/1wic3i9Supz3MZwMgSo0e3hVLHoJAvT8t/view?usp=sharing
+
+    exemple : ENI{FLAG_FORMAT}
+type: standard
+value: 30
+flags:
+  - ENI{Ç@_N'€st_Pas_Norma1}
+### Fichier a ajouter manuellement
+# files:
+#   - ./src/public/ca_trailer.mov
+requirements:
+  - "Welcome"
+tags:
+  - Moyen
+state: visible
+version: 1.0
