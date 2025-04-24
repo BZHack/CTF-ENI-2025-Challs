@@ -20,7 +20,7 @@ Puis en tentant d'envoyer une valeur arbitraire, nous obtenons une requête POST
 
 Si nous tentons de rejouer la requête POST cela indique que la session a expiré :
 
-![image](assets/capture_burp_validate_2.png)
+![image](assets/capture_burp_validate_expired.png)
 
 Il faut alors scripter pour tenter de rentrer dans les temps.
 La premières étape va donc etre d'enregistrer un captcha puis chercher si des solutions existent permettant de le résoudre rapidement.
